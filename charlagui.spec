@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['start.py'],
-             pathex=['/Users/max/CharlaGUI'],
+             pathex=[],
              binaries=[],
              datas=[],
              hiddenimports=[],
