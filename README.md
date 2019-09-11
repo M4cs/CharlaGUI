@@ -7,6 +7,18 @@ For Windows but if you have them running on MacOS the settings changer will work
 
 # Instructions
 
+### Installing From Pip
+
+#### Requirements:
+
+- Python3
+- pip3
+
+```
+pip3 install charlagui
+charlagui # run charlagui
+```
+
 ### Building from Source
 
 #### Requirements:
@@ -19,7 +31,7 @@ You need pyinstaller and a windows computer. To compile run:
 
 ```
 pip3 install -r requirements.txt
-compile.bat
+pyinstaller -wF start.py --icon icon.ico --name charlagui
 ```
 
 The exe will be in the subsequent build folder. Drag this into your Charlatano/RatPoison folder with the start script and JAR file.
