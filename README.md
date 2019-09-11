@@ -12,7 +12,7 @@ For Windows but if you have them running on MacOS the settings changer will work
 #### Requirements:
 
 - pyinstaller
-- python3
+- python3.6.8
 - windows
 
 You need pyinstaller and a windows computer. To compile run:
