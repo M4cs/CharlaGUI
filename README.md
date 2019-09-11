@@ -9,9 +9,16 @@ For Windows but if you have them running on MacOS the settings changer will work
 
 ### Building from Source
 
+#### Requirements:
+
+- pyinstaller
+- python3
+- windows
+
 You need pyinstaller and a windows computer. To compile run:
 
 ```
+pip3 install -r requirements.txt
 compile.bat
 ```
 
