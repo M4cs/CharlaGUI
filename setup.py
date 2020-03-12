@@ -14,7 +14,7 @@ setuptools.setup(
     install_requires=[
         'PySimpleGUIQt>=0.26.0',
         'PySide2>=5.13.0',
-        'psutil==5.6.2'
+        'psutil==5.6.6'
     ],
     author_email="mabridgland@protonmail.com",
     description="GUI for Charlatano and RatPoison CS:GO Cheat",
